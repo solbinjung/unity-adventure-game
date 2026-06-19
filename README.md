@@ -34,5 +34,14 @@
 
 ## 🚀 회고 및 성장
 
-* **유니티 생명 주기 및 컴포넌트 구조 체득:** `Update`, `FixedUpdate`, `LateUpdate` 등 프레임 처리 순서에 맞춰 스크립트를 적절히 배치하는 엔진의 기초 동작 원리를 확실하게 이해했습니다.
-* **유연한 구조 설계를 위한 밑거름:** 프로토타입 단계에서 컴포넌트 간 직접 참조(`GetComponent`, `Find`)가 많아질 때 발생하는 결합도 상승 문제를 경험했습니다. 이 한계를 인지한 것이 좋은 자극이 되어 차기 프로젝트(`GTen`, `Shadow of the Dragon`)에서 레이캐스팅(Raycasting) 및 중앙 데이터 제어를 위한 싱글톤 매니저 패턴을 도입하며 코드를 고도화하는 중요한 밑거름이 되었습니다.
+이 프로젝트는 Unity 엔진을 처음 배우며 제작한 첫 번째 게임입니다.
+개발 과정에서 MonoBehaviour의 생명 주기와 컴포넌트 기반 설계를 이해할 수 있었고 동시에 직접 참조 방식의 한계도 경험했습니다.
+이 경험은 이후 프로젝트인 **[GTen](https://github.com/solbinjung/unity-gten)** 과 **[Shadow of the Dragon](https://github.com/solbinjung/unity-shadow-of-the-dragon)**에서 구조 개선으로 이어졌습니다.
+
+* Singleton을 활용한 Manager 구조
+* ScriptableObject 기반 데이터 관리
+* 데이터와 로직의 분리
+* 중앙 집중형 게임 시스템 설계
+
+단순히 기능을 구현하는 것에서 나아가, **확장성과 유지보수를 고려한 구조 설계의 중요성**을 배우는 계기가 되었습니다.
+
