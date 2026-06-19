@@ -36,7 +36,7 @@
 
 이 프로젝트는 Unity 엔진을 처음 배우며 제작한 첫 번째 게임입니다.
 개발 과정에서 MonoBehaviour의 생명 주기와 컴포넌트 기반 설계를 이해할 수 있었고 동시에 직접 참조 방식의 한계도 경험했습니다.
-이 경험은 이후 프로젝트인 **[GTen](https://github.com/solbinjung/unity-gten)** 과 **[Shadow of the Dragon](https://github.com/solbinjung/unity-shadow-of-the-dragon)**에서 구조 개선으로 이어졌습니다.
+이 경험은 이후 프로젝트인 **[GTen](https://github.com/solbinjung/unity-gten)** 과 **[Shadow of the Dragon](https://github.com/solbinjung/unity-shadow-of-the-dragon)** 에서 구조 개선으로 이어졌습니다.
 
 * Singleton을 활용한 Manager 구조
 * ScriptableObject 기반 데이터 관리
